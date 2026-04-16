@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.heading {
+  font-family: 'Playfair Display', serif;
+}
+
+.hero-bg {
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1.5s ease-in-out;
+  filter: brightness(1.15);        /* Increased brightness - now 135% */
+}
+
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #facc15;
+  transform: translateY(-2px);
+}
+
+.menu-card {
+  transition: all 0.4s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.3);
+}
+
+.glow-yellow {
+  text-shadow: 0 0 20px rgb(29, 156, 18);
+}
